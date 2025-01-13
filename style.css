@@ -283,6 +283,35 @@ body
     overflow-y: hidden;
 }
 
+.projects-sections
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.projects-descriptions
+{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: medium;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.kitty {
+    width: 50%;
+    height: 50%;
+    margin: 5px;
+    padding-top: 45px;
+}
+
+.kitty-link {
+    color:#000
+}
 .copy
 {
     color: #FFFFFF;
