@@ -106,9 +106,7 @@ body
 
 .email-button
 {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000;
     box-sizing: border-box;
     font-size: 14px;
     font-weight: bold;
@@ -163,6 +161,7 @@ body
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #000;
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 
 .skills-header
@@ -190,7 +189,7 @@ body
 {
     border-bottom: 1px solid #000;
     width: 99%;
-    height:50%;
+    height:45%;
 }
 
 .languages
@@ -205,7 +204,7 @@ body
 .skills-section-2
 {
     width: 99%;
-    height:49%;
+    height:55%;
 }
 
 .tools
@@ -221,19 +220,21 @@ body
 {
     width: 60%;
     height: 300px;
+    font-weight: medium;
+    font-size: 14px;
 }
 
 .skills-text-1
 {
     border-bottom: 1px solid #000;
     width: 100%;
-    height:50%;
+    height:45%;
 }
 
 .skills-text-2
 {
     width: 100%;
-    height:49%;
+    height:55%;
 }
 
 .about
@@ -243,7 +244,7 @@ body
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #000;
     margin-top: 34px;
-    height: 70%;
+    height: 50%;
 }
 
 .about-header
@@ -255,13 +256,21 @@ body
     padding: 3px;
 }
 
+.about-text
+{
+    font-weight: medium;
+    font-size: 14px;
+    padding: 2px;
+    color: #000;
+}
+
 .projects
 {
     grid-area: 2 / 2 / 5 / 3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #000;
-    margin-top: -12%;
+    margin-top: -27%;
 }
 
 .projects-header
@@ -271,4 +280,5 @@ body
     background-color: rgba(18, 36, 18, 0.75);
     color: #FFFFFF;
     padding: 3px;
+    overflow-y: hidden;
 }
