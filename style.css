@@ -282,3 +282,12 @@ body
     padding: 3px;
     overflow-y: hidden;
 }
+
+.copy
+{
+    color: #FFFFFF;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
