@@ -364,7 +364,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .container {
     left: calc(50% - 40vw);
     grid-template-columns: 1fr;
