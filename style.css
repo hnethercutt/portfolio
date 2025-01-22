@@ -285,8 +285,8 @@ body {
 .copy {
   color: #ffffff;
   font-size: 16px;
-  position: absolute;
-  bottom: 0px;
+  position:fixed;
+  bottom: 0;
 }
 
 @media screen and (max-width: 480px) {
